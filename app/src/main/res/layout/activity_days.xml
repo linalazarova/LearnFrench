@@ -1,9 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DaysActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/mondaybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="623dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/lundi" />
+
+    <ImageButton
+        android:id="@+id/tuesdaybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="528dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/mardi" />
+
+    <ImageButton
+        android:id="@+id/wednesdaybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="435dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/mercredi" />
+
+    <ImageButton
+        android:id="@+id/thursdaybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="342dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/jeudi" />
+
+    <ImageButton
+        android:id="@+id/fridaybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="248dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/vendredi" />
+
+    <ImageButton
+        android:id="@+id/saturdaybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="154dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/samedi" />
+
+    <ImageButton
+        android:id="@+id/sundaybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="63dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/dimanche" />
+</RelativeLayout>
