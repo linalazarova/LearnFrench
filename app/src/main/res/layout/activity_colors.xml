@@ -1,9 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ColorsActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/redbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="526dp"
+        android:layout_toStartOf="@+id/orangebtn"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/rouge_img" />
+
+    <ImageButton
+        android:id="@+id/orangebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="524dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/orange_img" />
+
+    <ImageButton
+        android:id="@+id/yellowbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="526dp"
+        android:layout_toStartOf="@+id/redbtn"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/jaune_img" />
+
+    <ImageButton
+        android:id="@+id/bluebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="374dp"
+        android:layout_toStartOf="@+id/greenbtn"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/bleu_img" />
+
+    <ImageButton
+        android:id="@+id/greenbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="373dp"
+        android:layout_toStartOf="@+id/whitebtn"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/vert_img" />
+
+    <ImageButton
+        android:id="@+id/whitebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="373dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/blanc_img" />
+
+    <ImageButton
+        android:id="@+id/rosebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="220dp"
+        android:layout_toStartOf="@+id/violetbtn"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/rose_img" />
+
+    <ImageButton
+        android:id="@+id/violetbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="221dp"
+        android:layout_toStartOf="@+id/blackbtn"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/violet_img" />
+
+    <ImageButton
+        android:id="@+id/blackbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="217dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/noir_img" />
+</RelativeLayout>
