@@ -14,7 +14,6 @@
         <activity android:name=".DaysActivity" />
         <activity android:name=".NumbersActivity" />
         <activity android:name=".ColorsActivity" />
-        <activity android:name=".AlphabetActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
